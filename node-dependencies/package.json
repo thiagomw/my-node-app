@@ -1,0 +1,28 @@
+{
+  "name": "my-node-app",
+  "version": "1.0.0",
+  "description": "Microsoft Developer Beginner's Series to Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "test": "jest",
+    "build": "tsc",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagomw/my-node-app.git"
+  },
+  "author": "Thiago Ribeiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thiagomw/my-node-app/issues"
+  },
+  "homepage": "https://github.com/thiagomw/my-node-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^27.1.0"
+  }
+}
